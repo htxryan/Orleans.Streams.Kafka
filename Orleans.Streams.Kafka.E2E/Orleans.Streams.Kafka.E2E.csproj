@@ -22,10 +22,10 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Orleans.Streams.Utils" Version="$(StreamUtilsVersion)" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Orleans.Streams.Utils\Orleans.Streams.Utils\Orleans.Streams.Utils.csproj" />
     <ProjectReference Include="..\Orleans.Streams.Kafka\Orleans.Streams.Kafka.csproj" />
   </ItemGroup>
 
